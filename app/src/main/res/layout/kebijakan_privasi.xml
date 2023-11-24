@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kebijakan_privasi">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratbold"
+        android:text="Kebijakan Privasi"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="326dp"
+        android:layout_height="691dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="60dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Kami menghargai privasi pengguna kami. Dalam rangka memberikan layanan yang lebih baik, kami dapat mengumpulkan informasi berikut: Data Pribadi: Kami dapat mengumpulkan nama, alamat email, dan informasi kontak lainnya untuk keperluan akun dan pemberitahuan aplikasi. Data Kesehatan: Jika Anda memasukkan data kesehatan Anda, seperti berat badan, tinggi badan, dan catatan medis, kami akan menggunakannya untuk menyediakan rekomendasi kesehatan yang lebih akurat. Data Lokasi: Kami dapat menggunakan data lokasi untuk memberikan informasi terkait kesehatan yang sesuai dengan lokasi Anda. Kami akan menjaga kerahasiaan informasi Anda dan tidak akan membagikannya dengan pihak ketiga tanpa izin Anda, kecuali jika diwajibkan oleh hukum. Kebijakan Keamanan: Kami sangat serius dalam menjaga keamanan data Anda. Kami menggunakan enkripsi dan langkah-langkah keamanan lainnya untuk melindungi informasi Anda dari akses yang tidak sah. Jangan berikan kata sandi Anda kepada siapa pun, dan selalu logout dari akun Anda jika menggunakan perangkat bersama. Kebijakan Hak Cipta: Semua konten di dalam aplikasi MyHealthyApp dilindungi oleh hak cipta. Pengguna tidak diizinkan untuk menggandakan, mendistribusikan, atau menggunakan konten tanpa izin tertulis dari pemilik hak cipta. Kebijakan Penggunaan Konten: Kami mendorong pengguna untuk berbagi konten yang bersifat positif dan informatif. Kami berhak untuk menghapus konten yang dianggap melanggar kebijakan kami. Pengguna yang melanggar aturan ini dapat dilarang menggunakan aplikasi. Kebijakan Pembayaran: Aplikasi MyHealthyApp dapat diunduh secara gratis, tetapi kami menawarkan pembelian dalam aplikasi untuk fitur tambahan. Semua transaksi dilakukan melalui penyedia layanan pembayaran yang aman, dan tidak ada informasi kartu kredit yang disimpan oleh kami. Kebijakan Penggunaan Umum: Pengguna harus berusia minimal 13 tahun untuk menggunakan aplikasi ini. Kami tidak bertanggung jawab atas kerugian atau cedera yang mungkin timbul akibat penggunaan aplikasi ini. Kebijakan ini merupakan panduan umum dan perlu disesuaikan dengan aplikasi Anda dan hukum yang berlaku di wilayah Anda. Selalu pastikan untuk memberikan informasi yang akurat dan jelas kepada pengguna Anda."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
